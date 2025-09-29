@@ -88,36 +88,93 @@ section article figure figcaption {
 #comentario {
     font-size: 25px;
     font-weight: bold;
-}
-
-#mauris h3 {
-    font-size: 20px;
-}
-
-#mauris h4 {
-    font-size: 12px;
     margin-bottom: 1%;
 }
 
-#mauris p {
-    font-size: 12px;
-    margin-top: 0;
+.perfil {
+    display: flex;
+    flex-direction: row;
 }
 
-#donec h3 {
+.perfil h3 {
     font-size: 20px;
+    margin: 0;
 }
 
-#donec h4 {
+.perfil h4 {
     font-size: 12px;
     margin-bottom: 1%;
+    margin-top: 0;
 }
 
-#donec p {
-    font-size: 12px;
+.perfil img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.perfil p {
     margin-top: 0;
+}
+
+.perfil .perfil_text {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
     background-color: rgb(207, 207, 207);
+    display: flex;
+    flex-direction: row;
+    width: 84%;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a {
+    width: 500px;
+    margin-left: 2%;
+}
+
+footer a h5 {
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+footer a hr {
+    width: 450px;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p a {
+    font-size: 40px;
+}
+
+aside {
+    margin-top: 1%;
+    margin-right: 5%;
+    float: right;
+}
+
+aside img {
+    width: 200px;
+}
+
+aside ul li {
+    margin-bottom: 5%;
+}
+
+aside ul li::marker {
+    content: "\2605";
+    font-size: 12px;
+    color: gray;
 }
