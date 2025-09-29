@@ -38,7 +38,7 @@ nav a:hover {
     background-color: rgb(145, 145, 145);
 }
 
-/* Primeira Section */
+/* Sections */
 
 section {
     margin-left: 2%;
@@ -85,6 +85,8 @@ section article figure figcaption {
     font-size: 12px;
 }
 
+/* Área dos comentários */
+
 #comentario {
     font-size: 25px;
     font-weight: bold;
@@ -124,6 +126,8 @@ section article figure figcaption {
     flex-direction: column;
 }
 
+/* Listas em rodapé */
+
 footer {
     background-color: rgb(207, 207, 207);
     display: flex;
@@ -158,6 +162,8 @@ footer p {
 footer p a {
     font-size: 40px;
 }
+
+/* Elementos ao lado */
 
 aside {
     margin-top: 1%;
